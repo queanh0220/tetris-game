@@ -1,0 +1,62 @@
+
+#main {
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: center;
+    min-height: 100%;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image:url("thumb-1920-66702.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-position-y: center;
+    min-height: 100%;
+    margin: 0;
+}
+
+canvas {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+#game-over {
+    color: red;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+
+#play {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: white;
+    width: 150px;
+    background-color: #ff8d00;
+    border-block-color: white;
+    border-radius: 100px;
+}
+
+#play:hover {
+    color: red;
+    background-color: #e48109;
+}
+
+#pause {
+    transform: translate(-90px,-200px);
+    width: 78px;
+    border-radius: 40px;
+    height: 30px;
+}
